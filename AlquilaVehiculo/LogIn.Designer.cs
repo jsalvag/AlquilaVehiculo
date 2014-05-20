@@ -37,7 +37,7 @@
             // 
             // logUser
             // 
-            this.logUser.Location = new System.Drawing.Point(25, 11);
+            this.logUser.Location = new System.Drawing.Point(19, 14);
             this.logUser.Name = "logUser";
             this.logUser.Size = new System.Drawing.Size(163, 26);
             this.logUser.TabIndex = 1;
@@ -47,7 +47,7 @@
             // 
             // logClave
             // 
-            this.logClave.Location = new System.Drawing.Point(25, 43);
+            this.logClave.Location = new System.Drawing.Point(19, 46);
             this.logClave.Name = "logClave";
             this.logClave.Size = new System.Drawing.Size(163, 26);
             this.logClave.TabIndex = 2;
@@ -57,7 +57,7 @@
             // 
             // logEntrar
             // 
-            this.logEntrar.Location = new System.Drawing.Point(24, 75);
+            this.logEntrar.Location = new System.Drawing.Point(18, 78);
             this.logEntrar.Name = "logEntrar";
             this.logEntrar.Size = new System.Drawing.Size(82, 28);
             this.logEntrar.TabIndex = 3;
@@ -67,7 +67,7 @@
             // 
             // logCancelar
             // 
-            this.logCancelar.Location = new System.Drawing.Point(106, 75);
+            this.logCancelar.Location = new System.Drawing.Point(100, 78);
             this.logCancelar.Name = "logCancelar";
             this.logCancelar.Size = new System.Drawing.Size(82, 28);
             this.logCancelar.TabIndex = 4;
@@ -80,7 +80,8 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.ClientSize = new System.Drawing.Size(212, 113);
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.ClientSize = new System.Drawing.Size(200, 120);
             this.Controls.Add(this.logCancelar);
             this.Controls.Add(this.logEntrar);
             this.Controls.Add(this.logClave);
